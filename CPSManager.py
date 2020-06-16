@@ -31,7 +31,7 @@ class CPSManagerAPI(object):
 
 
         self.cpsList.append(cps)
-        simCps = CPS()
+
 
         return jsonify(cps)
 
